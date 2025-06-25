@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Therapy Booking Assistant</title>
+  <style>
+    body {
+      background: #f4f7f9;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 0;
+      padding: 20px;
+    }
+
+    h1 {
+      color: #333;
+      margin-bottom: 20px;
+    }
+
+    .chat-container {
+      background: #fff;
+      border: 1px solid #ccc;
+      border-radius: 12px;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      width: 100%;
+      max-width: 400px;
+      height: 600px;
+    }
+
+    iframe {
+      border: none;
+      width: 100%;
+      height: 100%;
+    }
+
+    @media (max-width: 500px) {
+      .chat-container {
+        height: 90vh;
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Therapy Booking Assistant 💬</h1>
+
+  <div class="chat-container">
+    <iframe height="430" width="350" src="https://bot.dialogflow.com/3958bfc5-ee8f-44ff-a237-cf65e91dc4da"></iframe>
+  </div>
+
+</body>
+</html>
